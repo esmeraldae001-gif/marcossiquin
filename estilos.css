@@ -1,0 +1,90 @@
+body{
+    background-color: #EAF4F4 !important;
+}
+.cal{
+     border-color: #1F2937;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    width: 2000px;
+    margin-top: 10px;
+}
+.titu1{
+         border-color: #1F2937;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    width: 2000px;
+    margin-top: 10px;
+}
+.poke1{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.evee1{
+    border-color: #1F2937;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 20%;
+    
+}
+.evee2{
+    border-color: #1F2937;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    width: 200px;
+    margin-top: 10px;
+   margin-left: 10%;
+}
+.ray1{
+    display: flex;
+    align-items: center;
+    gap: 600px;
+    margin-top: 10px;
+    justify-content: center;
+    margin: 20px ;
+    margin-right: 0px !important;
+}
+.mega1{
+     border-color: #1F2937;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    width: 200px;
+    width: 450px;
+    
+   margin: 0px;
+}
+.mega2{
+     border-color: #1F2937;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 100px;
+    
+}
+.mono1{
+    display: flex;
+    align-items: center;
+    gap: 570px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.separador2{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.jorge{
+    display: flex;
+    margin-left: 300px;
+}
+
