@@ -45,5 +45,28 @@ body{
    margin-left: 10%;
    width: 300px;
 }
+.comida{
+   display: flex;
+   margin-left: 280px;
+   margin-top: 20px;
+}
+.tony1{
+    border-color: #1F2937;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    width: 200px;
+    width: 450px;
+  
+}
+.tony2{
+     border-color: #1F2937;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    width: 200px;
+    width: 450px;
+    margin-left: 460px;
+}
 
 
