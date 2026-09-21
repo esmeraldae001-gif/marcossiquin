@@ -88,3 +88,21 @@ body{
     margin-left: 300px;
 }
 
+.estilocalcu{
+    background-color: gray !important;
+    width: 500px;
+    height: 390px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #606772;
+}
+.boton{
+    background-color: #EAF4F4;
+    border: none;
+    color: #1F2937;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
