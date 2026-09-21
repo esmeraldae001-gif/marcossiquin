@@ -6,134 +6,138 @@
 </head>
 
 <body>
-<center>
+    <center>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Sumar</a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Sumar</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="restar.html">Restar</a>
-                    <a class="nav-link" href="multiplicar.html">Multiplicar</a>
-                    <a class="nav-link" href="dividir.html">Dividir</a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="restar.html">Restar</a>
+                        <a class="nav-link" href="multiplicar.html">Multiplicar</a>
+                        <a class="nav-link" href="dividir.html">Dividir</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <h1 class="cal">CALCULADORA</h1>
+        <h1 class="cal">CALCULADORA</h1>
+        <div class="estilocalcu">
+            <div class="calculadora">
 
-    <div class="calculadora">
+                <input type="text" id="pantalla" class="pantalla" value="0" readonly>
 
-        <input type="text" id="pantalla" class="pantalla" value="0" readonly>
+                <div class="botones">
 
-        <div class="botones">
+                    <div class="fila1">
+                        <button class="boton" onclick="borrar()">AC</button>
+                        <button class="boton" onclick="agregar('.')">.</button>
+                        <button class="boton" onclick="operar('/')">÷</button>
+                        <button class="boton" onclick="operar('*')">×</button>
+                    </div>
 
-            <div class="fila1">
-                <button class="borrar" onclick="borrar()">AC</button>
-                <button class="numero" onclick="agregar('.')">.</button>
-                <button class="operador" onclick="operar('/')">÷</button>
-                <button class="operador" onclick="operar('*')">×</button>
+                    <div class="fila2">
+                        <button class="boton" onclick="agregar('7')">7</button>
+                        <button class="boton" onclick="agregar('8')">8</button>
+                        <button class="boton" onclick="agregar('9')">9</button>
+                        <button class="boton" onclick="operar('-')">−</button>
+                    </div>
+
+                    <div class="fila3">
+                        <button class="boton" onclick="agregar('4')">4</button>
+                        <button class="boton" onclick="agregar('5')">5</button>
+                        <button class="boton" onclick="agregar('6')">6</button>
+                        <button class="boton" onclick="operar('+')">+</button>
+                    </div>
+
+                    <div class="fila4">
+                        <button class="boton" onclick="agregar('1')">1</button>
+                        <button class="boton" onclick="agregar('2')">2</button>
+                        <button class="boton" onclick="agregar('3')">3</button>
+                        <button class="boton" onclick="calcular()">=</button>
+                    </div>
+
+                    <button class="boton" onclick="agregar('0')">0</button>
+
+                </div>
             </div>
 
-            <div class="fila2">
-                <button class="numero" onclick="agregar('7')">7</button>
-                <button class="numero" onclick="agregar('8')">8</button>
-                <button class="numero" onclick="agregar('9')">9</button>
-                <button class="operador" onclick="operar('-')">−</button>
-            </div>
-
-            <div class="fila3">
-                <button class="numero" onclick="agregar('4')">4</button>
-                <button class="numero" onclick="agregar('5')">5</button>
-                <button class="numero" onclick="agregar('6')">6</button>
-                <button class="operador" onclick="operar('+')">+</button>
-            </div>
-
-            <div class="fila4">
-                <button class="numero" onclick="agregar('1')">1</button>
-                <button class="numero" onclick="agregar('2')">2</button>
-                <button class="numero" onclick="agregar('3')">3</button>
-                <button class="igual" onclick="calcular()">=</button>
-            </div>
-
-            <button class="numero cero" onclick="agregar('0')">0</button>
-
-        </div>
-    </div>
-
-    <h2 class="titu1">Informacion de Suma</h2>
-
-    <div class="poke1">
-        <div class="evee1">
-            <h3>Que es la Suma</h3>
         </div>
 
-        <div class="evee2">
-            <h4>Ejemplos de la Suma</h4>
-        </div>
-    </div>
+        <h2 class="titu1">Informacion de Suma</h2>
 
-    <div class="jorge">
+        <div class="poke1">
+            <div class="evee1">
+                <h3>Que es la Suma</h3>
+            </div>
 
-        <div class="ray1">
-            <div class="mega1">
-
-                <p>
-                    La suma es una operación matemática que sirve para unir o agregar dos o más cantidades
-                    y obtener una cantidad total. Se representa normalmente con el signo +.
-                </p>
-
-                <p>Elementos de la suma:</p>
-
-                <ul>
-                    <li>Sumandos: son los números que se van a sumar.</li>
-                    <li>Signo +: indica que debemos realizar una suma.</li>
-                </ul>
-
+            <div class="evee2">
+                <h4>Ejemplos de la Suma</h4>
             </div>
         </div>
 
-        <div class="separador2">
-            <div class="mega2">
+        <div class="jorge">
 
-                <h4>Ejemplos de la suma</h4>
+            <div class="ray1">
+                <div class="mega1">
 
-                <ul>
-                    <li>5 + 3 = 8</li>
-                    <li>10 + 7 = 17</li>
-                    <li>25 + 15 = 40</li>
-                    <li>100 + 50 = 150</li>
-                </ul>
+                    <p>
+                        La suma es una operación matemática que sirve para unir o agregar dos o más cantidades
+                        y obtener una cantidad total. Se representa normalmente con el signo +.
+                    </p>
 
+                    <p>Elementos de la suma:</p>
+
+                    <ul>
+                        <li>Sumandos: son los números que se van a sumar.</li>
+                        <li>Signo +: indica que debemos realizar una suma.</li>
+                    </ul>
+
+                </div>
             </div>
+
+            <div class="separador2">
+                <div class="mega2">
+
+                    <h4>Ejemplos de la suma</h4>
+
+                    <ul>
+                        <li>5 + 3 = 8</li>
+                        <li>10 + 7 = 17</li>
+                        <li>25 + 15 = 40</li>
+                        <li>100 + 50 = 150</li>
+                    </ul>
+
+                </div>
+            </div>
+
         </div>
 
-    </div>
+        <br>
 
-    <br>
+        <div class="mono1">
 
-    <div class="mono1">
+            <img src="https://s1.significados.com/foto/suma-og.jpg" alt="Ejemplo de suma" width="300">
 
-        <img src="https://s1.significados.com/foto/suma-og.jpg" alt="Ejemplo de suma" width="300">
+            <img src="https://s1.significados.com/foto/ejemplo-suma.jpg?class=article" alt="Ejemplo de suma"
+                width="300">
 
-        <img src="https://s1.significados.com/foto/ejemplo-suma.jpg?class=article" alt="Ejemplo de suma" width="300">
+        </div>
 
-    </div>
+    </center>
 
-</center>
+    <script src="codigo.js"></script>
 
-<script src="codigo.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
