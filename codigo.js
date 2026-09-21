@@ -12,3 +12,4 @@ function Limpiar(){
 function Operar(){
     pantalla.value = eval(pantalla.value)
 }
+aler
