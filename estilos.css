@@ -106,3 +106,45 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+.boton:hover {
+        background-color: #1F2937;
+        color: #EAF4F4;
+    }
+.botono{
+    background-color: #EAF4F4;
+    border: none;
+    color: #1F2937;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botonBorrar{
+    background-color: #780000;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botonBorrar:hover {
+        background-color: #FF0000;
+        color: white;
+    }
+.botonOperar{
+    background-color: #bde0fe;
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botonOperar:hover {
+        background-color: #1F2937;
+        color: #EAF4F4;
+    }
