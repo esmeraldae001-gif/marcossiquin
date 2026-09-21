@@ -112,14 +112,16 @@ body{
     }
 .botono{
     background-color: #EAF4F4;
-    border: none;
     color: #1F2937;
     font-size: 20px;
     padding: 10px 20px;
     margin: 5px;
     border-radius: 5px;
     cursor: pointer;
+    border-color: #1F2937 !important;
+    font-family: monospace !important;
 }
+
 .botonBorrar{
     background-color: #780000;
     border: none;
